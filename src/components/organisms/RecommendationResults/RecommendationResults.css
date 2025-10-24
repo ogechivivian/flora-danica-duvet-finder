@@ -1,0 +1,138 @@
+.recommendation-results {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.recommendation-results__header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.recommendation-results__title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2D3748;
+  margin-bottom: 12px;
+}
+
+.recommendation-results__subtitle {
+  font-size: 18px;
+  color: #718096;
+  margin-bottom: 24px;
+}
+
+.recommendation-results__comparison-controls {
+  background: #EBF8FF;
+  border: 2px solid #90CDF4;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 24px;
+}
+
+.recommendation-results__comparison-text {
+  margin: 0 0 16px 0;
+  font-weight: 600;
+  color: #2B6CB0;
+}
+
+.recommendation-results__comparison-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.recommendation-results__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.recommendation-results__item {
+  position: relative;
+}
+
+.recommendation-results__rank {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2C5282;
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  background: #EBF8FF;
+  border-radius: 8px;
+}
+
+.recommendation-results__score {
+  font-size: 14px;
+  font-weight: 600;
+  color: #48BB78;
+}
+
+.recommendation-results__explanation {
+  margin-top: 20px;
+  padding: 20px;
+  background: #F7FAFC;
+  border-radius: 8px;
+}
+
+.recommendation-results__explanation h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2D3748;
+  margin: 0 0 12px 0;
+}
+
+.recommendation-results__explanation p {
+  font-size: 14px;
+  color: #4A5568;
+  line-height: 1.6;
+  margin: 0 0 16px 0;
+}
+
+.recommendation-results__reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.recommendation-results__reason {
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.recommendation-results__reason--positive {
+  background: #F0FFF4;
+  border-left: 4px solid #48BB78;
+  color: #22543D;
+}
+
+.recommendation-results__reason--negative {
+  background: #FED7D7;
+  border-left: 4px solid #F56565;
+  color: #742A2A;
+}
+
+.recommendation-results__actions {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .recommendation-results__grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .recommendation-results__title {
+    font-size: 24px;
+  }
+  
+  .recommendation-results__comparison-buttons {
+    flex-direction: column;
+  }
+}

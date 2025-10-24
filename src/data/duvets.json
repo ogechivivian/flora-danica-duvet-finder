@@ -1,0 +1,236 @@
+{
+  "duvets": [
+    {
+      "id": "fd-001",
+      "name": "Flora Danica Classic Down",
+      "brand": "Flora Danica",
+      "price": 1299,
+      "currency": "DKK",
+      "warmthLevel": "medium",
+      "fillingType": "down",
+      "season": "all-season",
+      "sizes": ["single", "double", "queen", "king"],
+      "allergyFriendly": "no",
+      "washable": true,
+      "sustainability": {
+        "sustainable": true,
+        "certifications": ["RDS Certified", "OEKO-TEX"]
+      },
+      "description": "Luxurious all-season duvet filled with premium European goose down. Perfect balance of warmth and breathability.",
+      "features": [
+        "90% European goose down",
+        "Cotton percale cover",
+        "Corner loops for duvet cover",
+        "Machine washable"
+      ],
+      "weight": 1200,
+      "threadCount": 233,
+      "imageUrl": "/images/flora-danica-classic.jpg",
+      "rating": 4.5,
+      "reviewCount": 127
+    },
+    {
+      "id": "fd-002",
+      "name": "Flora Danica Summer Light",
+      "brand": "Flora Danica",
+      "price": 899,
+      "currency": "DKK",
+      "warmthLevel": "cool",
+      "fillingType": "down-alternative",
+      "season": "summer",
+      "sizes": ["single", "double", "queen", "king"],
+      "allergyFriendly": "hypoallergenic",
+      "washable": true,
+      "sustainability": {
+        "sustainable": true,
+        "certifications": ["OEKO-TEX", "Global Recycled Standard"]
+      },
+      "description": "Ultra-light summer duvet made from recycled materials. Ideal for warm sleepers and summer nights.",
+      "features": [
+        "Recycled polyester filling",
+        "Bamboo fiber cover",
+        "Hypoallergenic",
+        "Moisture-wicking"
+      ],
+      "weight": 600,
+      "threadCount": 200,
+      "imageUrl": "/images/flora-danica-summer.jpg",
+      "rating": 4.3,
+      "reviewCount": 89
+    },
+    {
+      "id": "fd-003",
+      "name": "Flora Danica Winter Warmth",
+      "brand": "Flora Danica",
+      "price": 1599,
+      "currency": "DKK",
+      "warmthLevel": "extra-warm",
+      "fillingType": "down",
+      "season": "winter",
+      "sizes": ["single", "double", "queen", "king"],
+      "allergyFriendly": "no",
+      "washable": false,
+      "sustainability": {
+        "sustainable": true,
+        "certifications": ["RDS Certified"]
+      },
+      "description": "Premium winter duvet with highest fill power down. Exceptional warmth for cold sleepers and winter months.",
+      "features": [
+        "95% premium goose down",
+        "Egyptian cotton cover",
+        "850+ fill power",
+        "Professional cleaning recommended"
+      ],
+      "weight": 1800,
+      "threadCount": 300,
+      "imageUrl": "/images/flora-danica-winter.jpg",
+      "rating": 4.7,
+      "reviewCount": 156
+    },
+    {
+      "id": "fd-004",
+      "name": "Flora Danica Allergy Shield",
+      "brand": "Flora Danica",
+      "price": 1099,
+      "currency": "DKK",
+      "warmthLevel": "medium",
+      "fillingType": "synthetic",
+      "season": "all-season",
+      "sizes": ["single", "double", "queen", "king"],
+      "allergyFriendly": "yes",
+      "washable": true,
+      "sustainability": {
+        "sustainable": false,
+        "certifications": ["OEKO-TEX"]
+      },
+      "description": "Specially designed for allergy sufferers with anti-microbial treatment and dust mite protection.",
+      "features": [
+        "Synthetic microfiber filling",
+        "Anti-microbial treatment",
+        "Dust mite barrier",
+        "Machine washable at 60°C"
+      ],
+      "weight": 1000,
+      "threadCount": 180,
+      "imageUrl": "/images/flora-danica-allergy.jpg",
+      "rating": 4.2,
+      "reviewCount": 203
+    },
+    {
+      "id": "fd-005",
+      "name": "Flora Danica Eco Bamboo",
+      "brand": "Flora Danica",
+      "price": 799,
+      "currency": "DKK",
+      "warmthLevel": "cool",
+      "fillingType": "bamboo",
+      "season": "spring-autumn",
+      "sizes": ["single", "double", "queen"],
+      "allergyFriendly": "hypoallergenic",
+      "washable": true,
+      "sustainability": {
+        "sustainable": true,
+        "certifications": ["OEKO-TEX", "FSC Certified", "Global Organic Textile Standard"]
+      },
+      "description": "Eco-friendly duvet made from sustainably sourced bamboo fiber. Naturally temperature regulating.",
+      "features": [
+        "100% bamboo fiber",
+        "Naturally antibacterial",
+        "Temperature regulating",
+        "Biodegradable"
+      ],
+      "weight": 800,
+      "threadCount": 220,
+      "imageUrl": "/images/flora-danica-bamboo.jpg",
+      "rating": 4.4,
+      "reviewCount": 94
+    },
+    {
+      "id": "fd-006",
+      "name": "Flora Danica Wool Comfort",
+      "brand": "Flora Danica",
+      "price": 1399,
+      "currency": "DKK",
+      "warmthLevel": "warm",
+      "fillingType": "wool",
+      "season": "winter",
+      "sizes": ["double", "queen", "king"],
+      "allergyFriendly": "hypoallergenic",
+      "washable": false,
+      "sustainability": {
+        "sustainable": true,
+        "certifications": ["Woolmark", "OEKO-TEX"]
+      },
+      "description": "Natural wool duvet offering excellent temperature regulation and moisture management.",
+      "features": [
+        "100% merino wool",
+        "Natural temperature regulation",
+        "Moisture wicking",
+        "Professional cleaning only"
+      ],
+      "weight": 1500,
+      "threadCount": 250,
+      "imageUrl": "/images/flora-danica-wool.jpg",
+      "rating": 4.6,
+      "reviewCount": 78
+    },
+    {
+      "id": "fd-007",
+      "name": "Flora Danica Budget Comfort",
+      "brand": "Flora Danica",
+      "price": 399,
+      "currency": "DKK",
+      "warmthLevel": "medium",
+      "fillingType": "synthetic",
+      "season": "all-season",
+      "sizes": ["single", "double"],
+      "allergyFriendly": "hypoallergenic",
+      "washable": true,
+      "sustainability": {
+        "sustainable": false,
+        "certifications": ["OEKO-TEX"]
+      },
+      "description": "Affordable all-season duvet with good comfort and quality. Perfect for student housing and guest rooms.",
+      "features": [
+        "Polyester fiber filling",
+        "Cotton blend cover",
+        "Machine washable",
+        "Good value for money"
+      ],
+      "weight": 900,
+      "threadCount": 150,
+      "imageUrl": "/images/flora-danica-budget.jpg",
+      "rating": 3.9,
+      "reviewCount": 312
+    },
+    {
+      "id": "fd-008",
+      "name": "Flora Danica Premium Plus",
+      "brand": "Flora Danica",
+      "price": 2199,
+      "currency": "DKK",
+      "warmthLevel": "warm",
+      "fillingType": "down",
+      "season": "all-season",
+      "sizes": ["queen", "king"],
+      "allergyFriendly": "no",
+      "washable": false,
+      "sustainability": {
+        "sustainable": true,
+        "certifications": ["RDS Certified", "Luxury Down Certified"]
+      },
+      "description": "Top-of-the-line luxury duvet with the finest Hungarian goose down. Ultimate comfort and durability.",
+      "features": [
+        "Hungarian goose down",
+        "900+ fill power",
+        "Silk-cotton blend cover",
+        "Handcrafted construction"
+      ],
+      "weight": 1400,
+      "threadCount": 400,
+      "imageUrl": "/images/flora-danica-premium.jpg",
+      "rating": 4.9,
+      "reviewCount": 45
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card:focus-visible {
+  outline: none;
+  border-color: #4A90E2;
+}
+
+.card--highlighted {
+  border-color: #48BB78;
+  background: #F0FFF4;
+}
+
+.card--comparison {
+  border-color: #ED8936;
+  background: #FFFAF0;
+}
+
+/* Interactive cards */
+button.card {
+  border: 2px solid transparent;
+  text-align: left;
+  width: 100%;
+  background: white;
+  cursor: pointer;
+  font: inherit;
+}
+
+button.card:hover {
+  border-color: #CBD5E0;
+}
+
+button.card:active {
+  transform: translateY(1px);
+}
